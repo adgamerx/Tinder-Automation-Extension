@@ -7,7 +7,7 @@
         "default title": "Click Here To Automate Tinder"
     },
     "background": {
-        "scripts": "background.js",
+        "scripts": ["background.js"],
         "persistent": false
     },
     "permissions": [
