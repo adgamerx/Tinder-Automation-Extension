@@ -6,13 +6,12 @@
         "default_popup": "popup.html",
         "default title": "Click Here To Automate Tinder"
     },
-    "permissions": ["tabs", "https://tinder.com/*"],
+    "permissions": ["activeTab"],
     "content_scripts": [
         {
         "matches": [
-            "https://tinder.com/*"
+            "<all_urls>"
         ],
-        "css": ["style.css"],
         "js": ["popup.js"]
     }
 ],
