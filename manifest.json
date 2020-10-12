@@ -3,8 +3,13 @@
     "version": "1.0",
     "description": "A Chrome Extension to help you automate things like swiping right and left on Tinder",
     "background": {
-        "scripts": ["background.js"],
+        "scripts": [
+            "background.js"
+        ],
         "persistent": false
-      },
+    },
+    "page_action": {
+        "default_popup": "popup.html"
+    },
     "manifest_version": 2
-  }
+}
