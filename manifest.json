@@ -2,13 +2,9 @@
     "name": "Tinder Automation",
     "version": "1.0",
     "description": "A Chrome Extension to help you automate things like swiping right and left on Tinder",
-    "page_action": {
+    "browser_action": {
         "default_popup": "popup.html",
         "default title": "Click Here To Automate Tinder"
-    },
-    "background": {
-        "scripts": ["background.js"],
-        "persistent": false
     },
     "permissions": [
         "tabs",
@@ -23,6 +19,6 @@
                 "content.js"
             ]
         }
-    ],
+    ],  
     "manifest_version": 2
 }

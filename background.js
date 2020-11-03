@@ -9,3 +9,10 @@ chrome.runtime.onMessage.addListener(function (request) {
             })
     }
 })
+
+// manifest
+
+// "background": {
+//     "scripts": ["background.js"],
+//     "persistent": false
+// },
