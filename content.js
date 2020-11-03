@@ -1,15 +1,3 @@
-// chrome.runtime.sendMessage({do: "extensionActive"});
-
-
-
-// var a = document.getElementById("like");
-// var b = document.getElementById("nope");
-// var c = document.getElementById("stop");
-
-
-// a.addEventListener('click', startLike);
-// b.addEventListener('click', startNope);
-// c.addEventListener('click', stop);
 
 chrome.runtime.onMessage.addListener(
   function (request, sender, sendResponse) {
@@ -44,6 +32,3 @@ function pause(){
   clearInterval(nopeit);  
   console.log("Automation Stopped");
 }
-// function start() {
-  //   alert("you just clicked me");
-// }
