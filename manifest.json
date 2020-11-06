@@ -1,4 +1,5 @@
 {
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
     "name": "Tinder Automation",
     "version": "1.0",
     "description": "A Chrome Extension to help you automate things like swiping right and left on Tinder",
@@ -8,7 +9,7 @@
     },
     "permissions": [
         "tabs",
-        "https://tinder.com/*"
+        "https://tinder.com/app/recs"
     ],
     "content_scripts": [
         {

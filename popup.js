@@ -1,21 +1,27 @@
-function like() {
-    chrome.tabs.query({currentWindow: true, active: true}, function (tabs){
-    chrome.tabs.sendMessage(tabs[0].id, {message: "like"});
+
+// function nope() {
+//     chrome.tabs.query({currentWindow: true, active: true}, function (tabs){
+//     chrome.tabs.sendMessage(tabs[0].id, {message: "nope"});
+//    });
+// }
+
+
+document.getElementById("like").addEventListener('click', function() {
+   chrome.tabs.query({ currentWindow: true, active: true }, function (tabs) {
+      chrome.tabs.sendMessage(tabs[0].id, {message: "like"});
+      console.log("Like Button Clicked In Popup.js");
    });
-}
-function nope() {
-    chrome.tabs.query({currentWindow: true, active: true}, function (tabs){
-    chrome.tabs.sendMessage(tabs[0].id, {message: "nope"});
+});
+document.getElementById("pause").addEventListener('click', function(){
+   chrome.tabs.query({ currentWindow: true, active: true }, function (tabs) {
+      chrome.tabs.sendMessage(tabs[0].id, {message: "pause"});
+      console.log("Stop Button Clicked In Popup.js");
    });
-}
-function stop() {
-    chrome.tabs.query({currentWindow: true, active: true}, function (tabs){
-    chrome.tabs.sendMessage(tabs[0].id, {message: "pause"});
-   });
-}
+});
 
 // document.addEventListener("DOMContentLoaded", function() {
-  document.getElementById("like").addEventListener('click' , like());
-  document.getElementById("nope").addEventListener('click' , nope());
-  document.getElementById("pause").addEventListener('click' , stop());
+// document.getElementById("nope").addEventListener('click' , nope());
+// chrome.tabs.query({ currentWindow: true, active: true }, function (tabs) {
+//    chrome.tabs.sendMessage(tabs[0].id, { message: "loaded" });
+// });
 // });
