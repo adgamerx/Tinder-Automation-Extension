@@ -2,13 +2,15 @@ let likeit = () => {
   var likeBtn = document.querySelector('[aria-label="Like"]'); likeBtn.click()
 }
 
+var test;
+
 
 chrome.runtime.onMessage.addListener(
   function (request, sender, sendResponse) {
     if (request.message == "like") {
       function startLike() {
         console.log("started liking");
-        setInterval(likeit, 5000);
+        test = setInterval(likeit, 2000);
       }
       startLike();
     }
@@ -30,7 +32,7 @@ chrome.runtime.onMessage.addListener(
     // }
     if (request.message == "pause") {
       function pause() {
-        clearInterval(likeit);
+        clearInterval(test);
         // clearInterval(nopeit);
         console.log("Automation Stopped");
       }
