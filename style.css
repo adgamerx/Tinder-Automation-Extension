@@ -30,4 +30,9 @@ hr{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.footer-copyright{
+    background-color: #D2D1D1;
 }
