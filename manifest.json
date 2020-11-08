@@ -11,6 +11,11 @@
         "tabs",
         "https://tinder.com/app/recs"
     ],
+    "icons": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+    },
     "content_scripts": [
         {
             "matches": [
@@ -20,6 +25,6 @@
                 "content.js"
             ]
         }
-    ],  
+    ],
     "manifest_version": 2
 }
