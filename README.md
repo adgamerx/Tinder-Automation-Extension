@@ -2,7 +2,7 @@
 This Chrome Extension will help you to automate things like swiping right and left on Tinder.
 
 ## Table Of Content
-[How To Install](#how-to-install-img-srcicon16png-altimage)
+[How To Install](#how-to-install-)
 
 ## How To Install ![Image](icon16.png)
 
