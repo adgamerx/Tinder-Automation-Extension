@@ -1,6 +1,9 @@
 let likeit = () => {
   var likeBtn = document.querySelector('[aria-label="Like"]'); likeBtn.click()
 }
+let nopeit = () => {
+  var dislikeBtn = document.querySelector('[aria-label="Nope"]'); dislikeBtn.click()
+}
 
 var auto;
 
@@ -12,6 +15,13 @@ chrome.runtime.onMessage.addListener(
         auto = setInterval(likeit, 2000);
       }
       startLike();
+    }
+    if (request.message == "nope") {
+      function startDisLike() {
+        console.log("started disliking");
+        auto = setInterval(nopeit, 2000);
+      }
+      startDisLike();
     }
     // if (request.message == "loaded") {
     //   function extloaded() {
