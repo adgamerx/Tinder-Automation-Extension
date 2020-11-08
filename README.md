@@ -3,7 +3,8 @@
 This Chrome Extension will help you to automate things like swiping right and left on Tinder.
 
 ## Table Of Content
-[How To Install](#how-to-install-)
+[How To Install](#how-to-install-)<br>
+[Random Meme](#random-meme)
 
 ## How To Install ![Image](icon16.png)
 
@@ -17,5 +18,6 @@ This Chrome Extension will help you to automate things like swiping right and le
 3. Click on `Load Unpacked` on top left corner then navigate to the folder where you downloaded the extension and click Select Folder. 
    >You need to extract the .zip file if you have directly downloaded the extension first.
 4. Your Extension will be loaded now.
-***
+
+## Random Meme
 ![Random Meme](https://media.makeameme.org/created/markdown-markdown-everywhere.jpg)
