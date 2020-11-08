@@ -1,4 +1,4 @@
-# Tinder-Automation-Extension
+# Tinder-Automation-Extension ![](icon16.png)
 This Chrome Extension will help you to automate things like swiping right and left on Tinder.
 
 ## Table Of Content
