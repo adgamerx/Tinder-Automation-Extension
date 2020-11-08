@@ -10,6 +10,11 @@ chrome.runtime.onMessage.addListener(function (request) {
     }
 })
 
+// chrome.browserAction.onClicked.addListener(function(tab) {
+//     chrome.tabs.create({ url: "https://tinder.com/app/recs", selected: true });
+//     console.log("IconClicked")
+//   })
+
 // manifest
 
 // "background": {
