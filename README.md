@@ -1,5 +1,5 @@
 # Tinder-Automation-Extension ![](icon16.png)
- ![GitHub followers](https://img.shields.io/github/followers/adgamerx?label=Follow&logo=github) ![GitHub forks](https://img.shields.io/github/forks/adgamerx/Tinder-Automation-Extension?label=Fork) ![GitHub manifest version](https://img.shields.io/github/manifest-json/v/adgamerx/Tinder-Automation-Extension)<br>
+ ![GitHub followers](https://img.shields.io/github/followers/adgamerx?label=Follow&logo=github) ![GitHub forks](https://img.shields.io/github/forks/adgamerx/Tinder-Automation-Extension?label=Fork) ![GitHub manifest version](https://img.shields.io/github/manifest-json/v/adgamerx/Tinder-Automation-Extension?label=Version) ![Packagist Stars](https://img.shields.io/packagist/stars/adgamerx/Tinder-Automation-Extension?label=Stars)<br>
 This Chrome Extension will help you to automate things like swiping right and left on Tinder.
 
 ## Table Of Content
