@@ -13,7 +13,7 @@ This Chrome Extension will help you to automate things like swiping right and le
    ```git
    git clone https://github.com/adgamerx/Tinder-Automation-Extension.git
    ```
-2. Open your Google Chrome Browser and open extension by clicking `3 Dot Menu` > `More Tools` > `Extensions` or by simply visiting chrome://extensions/
+2. Open your Google Chrome Browser and open extension by clicking `3 Dot Menu` > `More Tools` > `Extensions` or by simply visiting ```chrome://extensions/```
 3. Click on `Load Unpacked` on top left corner then navigate to the folder where you downloaded the extension and click Select Folder. 
    >You need to extract the .zip file if you have directly downloaded the extension first.
 4. Your Extension will be loaded now.
