@@ -23,14 +23,14 @@ chrome.runtime.onMessage.addListener(
     if (request.message == "like") {
       function startLike() {
         console.log("started liking");
-        auto = setInterval(likeit, 2000);
+        auto = setInterval(likeit, 1000);
       }
       startLike();
     }
     if (request.message == "nope") {
       function startDisLike() {
         console.log("started disliking");
-        auto = setInterval(nopeit, 2000);
+        auto = setInterval(nopeit, 1000);
       }
       startDisLike();
     }
