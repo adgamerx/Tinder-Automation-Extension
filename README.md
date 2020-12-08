@@ -1,5 +1,5 @@
 # Tinder-Automation-Extension ![](icon16.png)
- ![GitHub followers](https://img.shields.io/github/followers/adgamerx?label=Follow&logo=github) ![GitHub forks](https://img.shields.io/github/forks/adgamerx/Tinder-Automation-Extension?label=Fork) ![Packagist Stars](https://img.shields.io/packagist/stars/adgamerx/Tinder-Automation-Extension?label=Stars) ![GitHub manifest version](https://img.shields.io/github/manifest-json/v/adgamerx/Tinder-Automation-Extension?label=Version) ![Chrome Extension](https://img.shields.io/badge/Chrome-Extension-orange?logo=Google-Chrome)<br>
+ ![GitHub followers](https://img.shields.io/github/followers/adgamerx?label=Follow&logo=github) ![GitHub forks](https://img.shields.io/github/forks/adgamerx/Tinder-Automation-Extension?label=Fork) [![GitHub manifest version](https://img.shields.io/github/manifest-json/v/adgamerx/Tinder-Automation-Extension?label=Version)](https://img.shields.io/github/manifest-json/v/adgamerx/Tinder-Automation-Extension) ![Chrome Extension](https://img.shields.io/badge/Chrome-Extension-orange?logo=Google-Chrome)<br>
 
 ## Table Of Content
 - [Usage](#usage)<br>
