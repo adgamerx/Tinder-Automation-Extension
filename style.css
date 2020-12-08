@@ -4,12 +4,42 @@ html, body {
     width: 350px;
     height: 180px;
     box-sizing: border-box;
+    /* background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%); */
 }
 .header{
     text-align: center;
-    background-color:#FC427B;
+    /* background-color:#FC427B; */
+    background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
     color: #F8EFBA;
     text-shadow: 2px 2px 5px black;
+}
+
+/* form{
+    margin: 25px 37px;
+    justify-content: space-between;
+} */
+
+/* .inp {
+    border:none;
+    border-bottom: 1px solid #1890ff;
+    padding: 5px 10px;
+    outline: none;
+} */
+
+/* #mainhead ::content{
+    background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+} */
+
+/* .content {
+    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+} */
+
+/* body > div.content > div.set-timer > form > div > div:nth-child(2) > button{
+    padding: 6px 49px;
+} */
+
+#footertext {
+color: #dff9fb;
 }
 
 hr{
