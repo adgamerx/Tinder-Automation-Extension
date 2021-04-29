@@ -55,6 +55,18 @@ hr{
     justify-content: space-around;
 }
 
+.inp {
+    width: 90px;
+    text-align: center;
+    border: none;
+    border-bottom: solid 1px gray;
+    outline: none;
+}
+
+/* inp::after{
+    content: "Sec";
+} */
+
 .stop{
     margin-top: 20px;
     display: flex;

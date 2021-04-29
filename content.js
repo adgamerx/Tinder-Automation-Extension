@@ -8,12 +8,15 @@
 //   var dislikeBtn = document.querySelector('[aria-label="Nope"]'); dislikeBtn.click()
 // }
 
+let arr = document.getElementsByTagName('button');
+
 let likeit = () => {
-  var likeBtn = document.querySelector("#content > div > div.App__body.H\\(100\\%\\).Pos\\(r\\).Z\\(0\\) > div > main > div.H\\(100\\%\\) > div > div > div.recsCardboard.W\\(100\\%\\).Mt\\(a\\).H\\(100\\%\\)--s.Px\\(4px\\)--s.Pos\\(r\\) > div > div.Pos\\(r\\).Py\\(16px\\).Py\\(12px\\)--s.Px\\(4px\\).Px\\(8px\\)--ml.D\\(f\\).Jc\\(sb\\).Ai\\(c\\).Maw\\(375px\\)--m.Mx\\(a\\).Pe\\(n\\).Mt\\(-1px\\) > div:nth-child(4) > button"); likeBtn.click()
+  var likeBtn = arr[arr.length-3]; 
+  likeBtn.click()
 }
 
 let nopeit = () => {
-  var dislikeBtn = document.querySelector("#content > div > div.App__body.H\\(100\\%\\).Pos\\(r\\).Z\\(0\\) > div > main > div.H\\(100\\%\\) > div > div > div.recsCardboard.W\\(100\\%\\).Mt\\(a\\).H\\(100\\%\\)--s.Px\\(4px\\)--s.Pos\\(r\\) > div > div.Pos\\(r\\).Py\\(16px\\).Py\\(12px\\)--s.Px\\(4px\\).Px\\(8px\\)--ml.D\\(f\\).Jc\\(sb\\).Ai\\(c\\).Maw\\(375px\\)--m.Mx\\(a\\).Pe\\(n\\).Mt\\(-1px\\) > div:nth-child(2) > button"); dislikeBtn.click()
+  var dislikeBtn = arr[arr.length-5];; dislikeBtn.click()
 }
 
 var auto;
@@ -23,14 +26,14 @@ chrome.runtime.onMessage.addListener(
     if (request.message == "like") {
       function startLike() {
         console.log("started liking");
-        auto = setInterval(likeit, 1000);
+        auto = setInterval(likeit, 100);
       }
       startLike();
     }
     if (request.message == "nope") {
       function startDisLike() {
         console.log("started disliking");
-        auto = setInterval(nopeit, 1000);
+        auto = setInterval(nopeit, 100);
       }
       startDisLike();
     }

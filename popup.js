@@ -5,6 +5,7 @@
 //    });
 // }
 
+var seconds = document.getElementById("inp").value;
 
 document.getElementById("like").addEventListener('click', function() {
    chrome.tabs.query({ currentWindow: true, active: true }, function (tabs) {
@@ -24,6 +25,7 @@ document.getElementById("pause").addEventListener('click', function(){
       console.log("Stop Button Clicked In Popup.js");
    });
 });
+
 
 // document.addEventListener("DOMContentLoaded", function() {
 // document.getElementById("nope").addEventListener('click' , nope());
