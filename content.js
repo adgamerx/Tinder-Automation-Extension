@@ -16,7 +16,8 @@ let likeit = () => {
 }
 
 let nopeit = () => {
-  var dislikeBtn = arr[arr.length-5];; dislikeBtn.click()
+  var dislikeBtn = arr[arr.length-5];
+  dislikeBtn.click();
 }
 
 var auto;
