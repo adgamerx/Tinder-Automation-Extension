@@ -26,12 +26,7 @@ document.getElementById("pause").addEventListener('click', function(){
    });
 });
 
-function run() {
-   console.log('The DOM is loaded');
-   console.log(`Current Second Value is ${seconds}`);
- }
- 
- document.addEventListener("DOMContentLoaded", run);
+
 
 
 // document.addEventListener("DOMContentLoaded", function() {
